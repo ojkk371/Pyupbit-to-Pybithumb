@@ -3,5 +3,5 @@
 
 #
 
-### Update v1
+### Update v 0.01
 account_info.py 수정중
