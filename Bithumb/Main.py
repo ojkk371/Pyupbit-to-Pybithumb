@@ -43,12 +43,12 @@ while 1:
     if uuid_count == 0:
 
         print('*' * 140)
-        print('미채결건이 존재하지 않습니다')
+        print('미체결건이 존재하지 않습니다')
         pass
 
     else:
         print('*' * 140)
-        print('미채결 건수', len(uuid), '건 발생')
+        print('미체결 건수', len(uuid), '건 발생')
         print(uuid)
 
         for i in uuid:
