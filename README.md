@@ -1,2 +1,2 @@
-# pybithumb-api-python-
-업비트 -> 빗썸으로
+# pyupbit-to-pybithumb
+업비트 개발 패키지 -> 빗썸버전으로
