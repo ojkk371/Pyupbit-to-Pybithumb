@@ -47,13 +47,13 @@ class Bithumb_login:
         #print("=" * 150)
 
         print("=" * 150)
-        # print("a :",a) # 종목확인
         print("보유 코인 :", a)
         print("보유 코인량 :", b)
         self.account = self.bithumb_info.get_balance('')  # 계좌 전체 통계 정보
-        self.coin_own = a
-        self.coin_vol = b
-        self.own_info = c
+        
+        self.coin_own = a # 보유 코인
+        self.coin_vol = b # 보유 코인량
+        self.own_info = c # 보유코인 호가정보
 
         print("=" * 150)
         print("현재 보유 원화 : ", self.account["data"]["available_krw"])
