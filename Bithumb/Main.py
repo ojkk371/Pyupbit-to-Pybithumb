@@ -32,7 +32,7 @@ while 1:
     now_up_prices = sell_coin_info.my_up_price  # 보유 코인 매도가 정보
     now_prices = sell_coin_info.my_now_price # 보유 코인 현재가 정보
     now_coin_counts = sell_coin_info.my_coin_count  # 보유코인 갯수 정보
-    now_avg_buy_prices = sell_coin_info.my_coin_avg_price # 보유 코인 평균 단가
+    now_avg_buy_prices = sell_coin_info.my_coin_avg_price # 보유 코인 평균 단가 <- account_info.py 에서 해결필요 ★
 
     #AI_modell_accuracy = sell_coin_info.AI_modell_accuracy # 예측 모델 정확도
 
